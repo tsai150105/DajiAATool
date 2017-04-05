@@ -1,0 +1,75 @@
+/* ----------------------------------------------- */
+/*
+
+      BlogRoll css 2
+
+*/
+/* ----------------------------------------------- */
+
+.blogroll-channel,
+.blogroll-channel * {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+}
+.blogroll-channel {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.blogroll-channel .blogroll-list-wrap {
+    margin-bottom: 10px;
+}
+
+.blogroll-channel .blogroll-list {
+    list-style-type: none;
+    margin-bottom: 3px;
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.blogroll-channel .blogroll-list img {
+    vertical-align: middle;
+}
+
+.blogroll-channel img.blogroll-icon,
+.blogroll-channel img.blogroll-favicon {
+    margin: 0 5px 0 0;
+}
+
+.blogroll-channel img.blogroll-favicon {
+	width: 16px;
+	height: 16px;
+}
+
+.blogroll-channel a.blogroll-link {
+}
+
+.blogroll-channel .blogroll-new-entry {
+    margin-left: 5px;
+    color: red;
+}
+
+.blogroll-channel .blogroll-clip,
+.blogroll-channel .blogroll-hatebu {
+    margin: 0 0 0 5px;
+}
+
+.blogroll-channel .blogroll-link-time {
+    margin: 0 0 0 3px;
+    color: #666;
+    font-size: 10px;
+}
+
+.blogroll-channel .blogroll-ad-img {
+}
+
+.blogroll-channel .blogroll-ad-text {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-size: 12px;
+}

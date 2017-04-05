@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+/* BODY */
+
+body {
+font-family: "ＭＳ Ｐゴシック", "MS PGothic", 'Mona', 'IPAMonaPGothic', 'Textar', sans-serif!important;
+font-size:16px;
+line-height: 18px;
+color: #333333;
+text-align: center;
+background-image:url(http://blog-imgs-49-origin.fc2.com/y/a/r/yaruokei/kabe-wa04.gif);
+margin: 0px auto;
+padding: 0px;
+}
+
+a: {
+color: #0044CC;
+text-decoration: none;
+}
+
+a:link {
+color: #0044CC;
+text-decoration: none;
+}
+
+a:visited {
+color: #0044CC;
+text-decoration: none;
+}
+
+a:active {
+color: #0044CC;
+text-decoration: none;
+}
+
+a:hover {
+color: #0000FF;
+text-decoration: underline;
+}
+
+
+/* 全体 */
+
+fieldset {
+background-color: #e0e0e0;
+border-style: ridge;
+border-width : 4px;
+}
+
+#container {
+width:1350px;
+margin: 0px auto;
+text-align: left;
+}
+
+/* ヘッダー */
+
+#header {
+height:180px;
+border: 1px solid #CCC;
+background: #F5F5F5;
+background-image: url(http://blog-imgs-56-origin.fc2.com/y/a/r/yaruokei/20121123141421051.jpg);
+height: 150px;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#header h1 {
+font-size:24px;
+font-weight:bold;
+margin: 0px 0px 3px 0px;
+text-align:center;
+padding: 50px 0px 0px 10px;
+}
+
+#header .description {
+font-size:14px;
+margin: 0px 0px 3px 0px;
+padding: 10px 0px 0px 10px;
+border-bottom: 1px dashed #CCC;
+}
+
+#header a: {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:link {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:visited {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:active {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:hover {
+color: #8A8A8A;
+text-decoration: none;
+}
+
+/* 記事メイン */
+
+#main {
+float:left;
+width:1100px;
+background: #EBEBEB;
+margin: 15px 0px 0px 0px;
+padding: 0px 0px 5px 0px;
+}
+
+#main .category {
+margin: 0px 0px 15px 0px;
+border: #CCC solid 1px;
+}
+
+#main .category_p3 {
+background:#F4F4F4;
+margin: 0px 0px 15px 0px;
+padding: 5px 0px 5px 0px;
+}
+
+#main h2 {
+border-bottom:1px dashed #CCC;   
+border-left:8px double #CCC;  
+font-size:14px;
+color:#333333;
+font-weight:bold;
+margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+}
+
+#main .entry_body {
+margin: 15px 25px 15px 25px;
+padding: 0px 0px 0px 0px;
+}
+
+#main p {
+margin: 20px 0px 20px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#main blockquote {
+margin: 20px 10px 20px 10px;
+padding: 10px 10px 10px 10px;
+border:#333333 dotted 2px;
+background: #151515;
+}
+
+#main ul {
+margin: 0px 0px 0px 20px;
+padding: 10px 0px 10px 0px;
+}
+
+#main li {
+line-height: 120%;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 3px 0px;
+}
+
+#main table ul {
+margin: 5px 0px 5px 20px;
+padding: 0px 0px 0px 0px;
+}
+
+#main table {
+margin: 5px 25px 5px 25px;
+padding: 0px 0px 0px 0px;
+width:485px;
+border:solid #Ffffff 1px;
+}
+
+#main td {
+padding: 5px 5px 5px 5px;
+border:solid #Ffffff 1px;
+}
+
+#main dt.relate_dt {
+font-weight:bold;
+text-align: center;
+}
+
+#main dd.relate_dd {
+border:1px dashed #CCC;
+margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+}
+
+/* サイドバー */
+
+#side {
+float:right;
+font-size:12px;
+width:250px;
+height:auto;
+margin: 15px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#side .category {
+background: #F5F5F5;
+margin: 0px 0px 15px 0px;
+padding: 10px 0px 10px 0px;
+}
+
+#side h3 {
+border-right:2px solid #CCC;
+border-bottom:2px solid #CCC;
+font-size:12px;
+text-align:center;
+font-weight:bold;
+margin: 0px 0px 5px 0px;
+padding: 5px 10px 5px 10px;
+}
+
+#side .entry_body {
+margin: 0px 15px 0px 15px;
+padding: 0px 0px 0px 0px;
+}
+
+#side p {
+margin: 15px 0px 15px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#side blockquote {
+margin: 15px 0px 15px 0px;
+padding: 10px 10px 10px 10px;
+border:#333333 dotted 2px;
+background: #151515;
+}
+
+#side ul {
+margin: 0px 0px 0px 0px;
+padding: 10px 0px 5px 0px;
+}
+
+#side li {
+line-height: 120%;
+margin: 5px 0px 5px 15px;
+padding: 0px 0px 5px 0px;
+}
+
+
+/* フッター */
+
+#footer {
+text-align:center;
+font-size:12px;
+background: #FFF;
+margin: 15px 0px 0px 0px;
+padding: 5px 0px 5px 0px;
+border-top: #CCC solid 1px;
+}
+
+#footer p {
+margin: 5px 25px 5px 25px;
+padding: 0px 0px 0px 0px;
+}
+
+
+/* FC2 */
+
+.entry_header a:link {
+color: #333333;
+text-decoration: none;
+}
+
+.entry_header a:visited {
+color: #333333;
+text-decoration: none;
+}
+
+.entry_header a:active {
+color: #333333;
+text-decoration: none;
+}
+
+.entry_header a:hover {
+color: #8A8A8A;
+text-decoration: none;
+}
+
+.fc2_footer {
+margin: 20px 0px 0px 0px;
+}
+
+.entry_state {
+margin: 20px 25px 20px 25px;
+padding: 0px 0px 0px 0px;
+font-size: 12px;
+text-align: right;
+}
+
+.trackback-title {
+border-left:4px solid #CCC;
+border-bottom:1px dashed #CCC;
+font-weight:bold;
+margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<link media="all" href="icon_data/index.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="icon_data/json2.js"></script>
+<script type="text/javascript" src="comment_toolbar.js"></script>
+<style type="text/css">
+html,body,div,
+dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,textarea,iframe,
+blockquote,th,td,p {
+	margin: 0;
+	padding: 0;
+}
+</style>
+</head>
+<body>
+	<div id="tools_container">
+	<ul>
+		<li id="bold_tool" class="tool">
+			<a title="太字の文が入ります。" onclick="insertTempTag('bold','bold','bold');return false;" href="javascript:;"><img src="comment_toolbar_data/blank.gif" alt="" width="1" height="1"></a>
+		</li>
+		<li id="italic_tool" class="tool">
+			<a title="斜体の文が入ります。" onclick="insertTempTag('italic','italic','italic');return false;" href="javascript:;"><img src="comment_toolbar_data/blank.gif" alt="" width="1" height="1"></a>
+		</li>
+		<li id="underline_tool" class="tool">
+			<a title="下線の文が入ります。" onclick="insertTempTag('underline','underline','underline');return false;" href="javascript:;"><img src="comment_toolbar_data/blank.gif" alt="" width="1" height="1"></a>
+		</li>
+		<li id="negated_tool" class="tool">
+			<a title="打ち消しの文が入ります。" onclick="insertTempTag('strike','strike','strike');return false;" href="javascript:;"><img src="comment_toolbar_data/blank.gif" alt="" width="1" height="1"></a>
+		</li>
+		<li id="color_tool">
+			<a id="button_color" title="色付きの文字が入ります。" onclick="toggleSubMenu('palette');return false;" href="javascript:;"><img src="comment_toolbar_data/blank.gif" alt="" width="1" height="1"></a>
+		</li>
+		<li id="emoji_tool">
+			<a id="button_icon" title="絵文字を挿入します。" onclick="toggleSubMenu('icon');return false;" href="javascript:;"><img src="comment_toolbar_data/blank.gif" alt="" width="1" height="1"></a>
+		</li>
+	</ul>
+	</div>
+	<script type="text/javascript" src="palette_data/palette.js"></script>
+
+</body></html>
